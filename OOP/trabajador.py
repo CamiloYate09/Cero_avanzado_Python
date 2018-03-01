@@ -6,6 +6,9 @@ Created on 1 mar. 2018
 
 from OOP.persona import Persona # IMPORTANTO CLASE
 
+
+#SUBCLASE
+
 class Trabajador(Persona):#DE QUE CLASE VAMOS A HEREDAR TODO
     def  __init__(self,clave,nombre,edad,sueldo):
         self.clave = clave
