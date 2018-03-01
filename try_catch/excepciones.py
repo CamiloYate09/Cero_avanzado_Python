@@ -15,4 +15,3 @@ else:
     print("La suma es " + str(resta))
     print("La suma es " + str(multiplicacion))
     print("La suma es " + str(division))
-           
