@@ -33,6 +33,7 @@ while True:
         numero1 = int(input("Introduze el primer numero : "))
         numero2 = int(input("Introduze el segundo numero:  "))
     except ValueError:
+        #python y sus diferentes tipos de excepciones ("ZeroDivisionError")
         print("Por favor, introduze solo numeros")
     else:
         if (operacion <1 or operacion >4):
